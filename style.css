@@ -116,6 +116,85 @@ body, html {
   top: -2px; /* Ajusta el valor de 'top' para moverlo hacia arriba */
 }
 
+/* Estilos para la nueva sección */
+.nueva-seccion {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e6e7eb; /* Color de fondo claro */
+}
+
+.titulo-principal {
+  font-size: 31px;
+  font-weight: 700;
+  color: #1e3b8b;
+  margin-bottom: 30px;
+  max-width: 100%; /* Aumenta el ancho del contenedor del texto */
+}
+
+
+/* Imagen ancha que abarca toda la pantalla */
+.imagen-ancha {
+  width: 100vw; /* Usa el 100% del ancho de la ventana */
+  height: auto;
+  display: block;
+  object-fit: cover; /* Ajusta la imagen manteniendo proporciones */
+  margin: 0;
+  padding: 0;
+  position: relative; /* Necesario para mover la imagen */
+  left: 50%; /* Mueve la imagen 50% desde la izquierda */
+  transform: translateX(-50%); /* Centra la imagen */
+}
+
+.texto-descripcion {
+  max-width: 90%; /* Aumenta el ancho del contenedor del texto */
+  margin: 20px auto 0;
+}
+
+.titulo-secundario {
+  font-size: 23px;
+  font-weight: 500;
+  color: #1e3b8b;
+  margin-bottom: 10px;
+}
+
+.parrafo {
+  font-size: 17px;
+  line-height: 1.5;
+  color: black;
+  text-align: justify; /* Alineación justificada del párrafo */
+  font-weight: 500; /* Fuente más pesada para resaltar */
+}
+
+.parrafo a {
+  display: inline-flex; /* Para mantener el ícono y el texto en la misma línea */
+  align-items: center; /* Asegura que el ícono esté centrado verticalmente con el texto */
+}
+
+.parrafo img {
+  width: 20px; /* Ajusta el tamaño del ícono */
+  height: 20px;
+  margin-right: 0px; /* Añade espacio entre el ícono y el texto */
+  position: relative; /* Permite mover el ícono con ajustes */
+  top: -1px; /* Ajusta la posición vertical del ícono, puedes cambiar el valor según lo necesites */
+}
+
+.enlace-destacado1 {
+  color: black; /* Color más oscuro para el enlace */
+  font-weight: 700; /* Fuente más pesada para resaltar */
+  text-decoration: underline; /* Subrayar el texto */
+  font-size: 19px;
+}
+
+.t-1 {
+  position: relative; /* Permite mover el elemento */
+  top: -4.1px; /* Ajusta el valor de 'top' para moverlo hacia arriba */
+}
+
+.t-2 {
+  position: relative; /* Permite mover el elemento */
+  top: -2px; /* Ajusta el valor de 'top' para moverlo hacia arriba */
+}
+
 .texto-final {
   position: absolute;
   left: 50%;
@@ -133,4 +212,4 @@ body, html {
   .s {
   color: #ffffff; /* Color más oscuro para el enlace */
   font-weight: 400; /* Fuente más pesada para resaltar */
-  }
+}
